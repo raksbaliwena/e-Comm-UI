@@ -13,6 +13,35 @@
 
     <link rel="stylesheet" href="../css/style.css">
 
+    <style>
+        .product img{
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            object-fit: cover;
+        }
+
+        #featured > div.row.mx-auto.container > nav > ul > li.page-item.active > a{
+            background-color: black;
+        }
+
+        #featured > div.row.mx-auto.container > nav > ul > li:nth-child(n):hover > a{
+            background-color: coral;
+            color: #fff;
+
+        }
+
+
+        .pagination a {
+            color: #000;
+
+        }
+
+        .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+            color: coral;
+        }
+
+    </style>
     
 </head>
 <body>
@@ -32,7 +61,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="shop.html">Shop</a>
+                <a class="nav-link active" href="shop.html">Shop</a>
               </li>
 
               <li class="nav-item">
@@ -54,14 +83,14 @@
 
 
     <section id="featured" class="my-5 py-5">
-        <div class="container text-center mt-5 py-5">
-            <h3>Our Featured</h3>
-            <hr class="mx-auto">
+        <div class="container mt-5 py-5">
+            <h2 class="font-weight-bold">Our Featured</h2>
+            <hr>
             <p>Here you can check out our new products with fair price on rymo</p>
         </div>
-        <div class="row mx-auto container-fluid">
+        <div class="row mx-auto container">
             <div class="product text-center col-lg-3 col-md-4 col-12">
-                <img class="img-fluid mb-3" src="../img/featured/1.jpg" alt="">
+                <img class="img-fluid mb-3" src="../img/shop/1.jpg" alt="">
                 <div class="star">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -74,7 +103,7 @@
             </div>
 
             <div class="product text-center col-lg-3 col-md-4 col-12">
-                <img class="img-fluid mb-3" src="../img/featured/2.jpg" alt="">
+                <img class="img-fluid mb-3" src="../img/shop/2.jpg" alt="">
                 <div class="star">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -87,7 +116,7 @@
             </div>
 
             <div class="product text-center col-lg-3 col-md-4 col-12">
-                <img class="img-fluid mb-3" src="../img/featured/3.jpg" alt="">
+                <img class="img-fluid mb-3" src="../img/shop/3.jpg" alt="">
                 <div class="star">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -100,7 +129,7 @@
             </div>
 
             <div class="product text-center col-lg-3 col-md-4 col-12">
-                <img class="img-fluid mb-3" src="../img/featured/4.jpg" alt="">
+                <img class="img-fluid mb-3" src="../img/shop/4.jpg" alt="">
                 <div class="star">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -111,6 +140,235 @@
                 <h4 class="p-price">$99.99</h4>
                 <button class="buy-btn">Buy Now</button>
             </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/5.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/6.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/7.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/8.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/9.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/10.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/11.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/12.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/13.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/14.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/15.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/16.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/17.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/18.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/19.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="../img/shop/20.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">$99.99</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <nav aria-label="...">
+                <ul class="pagination mt-5">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+
+                    <li class="page-item" aria-current="page">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+
         </div>
     </section>
 
