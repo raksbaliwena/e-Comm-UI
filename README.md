@@ -1,2 +1,2 @@
-# e-Comm-UI
-e-commerce UI example using bootstrap v5
+# Products Showcase Website
+simple products showcase website example using HTML, JS and CSS (bootstrap v5)
